@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.admin-sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding: 20px 0;
+}
+
+.admin-sidebar .list-group-item {
+    background-color: #343a40;
+    color: lightblue;
+    border: none;
+    cursor: pointer;
+}
+.admin-sidebar a {
+    text-decoration: none;
+    color: white;
+}
+.admin-sidebar .list-group-item.active {
+    background-color: #444c54;
+}
+
+/* Admin content styles */
+.admin-content {
+    padding: 20px;
+}
+
+/* Member, Customer, and Product management styles */
+.member-management,
+.customer-management,
+.product-management {
+    display: none;
+}
+.footer .container {
+    max-width: 100%;
+    margin: auto;
+}
+.footer .container .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer {
+    background-color: #24262b;
+    padding: 4%;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 2%;;
+}
+.footer-col h4 {
+    font-size: 100%;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 7%;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+    background-color: #e91e63;
+    height: 5%;
+    box-sizing: border-box;
+    width: 30%;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 3%;
+}
+.footer-col ul li a {
+    font-size: 80%;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 5%;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 2% 2% 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff
+}
+@media only screen and (max-width: 768px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 2% ;
+    }
+    .news-section .section-content .cards {
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 2% ;
+    }
+}
+ 
+div1 {
+  margin-left: 2%;
+  font-size: 80%;
+}
+div2 {
+  margin-left: 80%;
+  font-size: 90%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ 
+/* Định dạng các thẻ li */
+ul li1 {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style: none;
+}
+ 
+/* thiết lập các phần tử li lẻ một màu nền khác */
+ul li1:nth-child(odd) {
+  background: #f9f9f9;
+}
