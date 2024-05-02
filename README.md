@@ -1,6 +1,6 @@
-# Furniture E-Commerce Website
+# BK_Furniture
 
-Welcome to our Furniture E-Commerce Website! This platform allows users to browse and purchase a wide range of furniture products from the comfort of their homes.
+Welcome to our BK_Furniture Website! This platform allows users to browse and purchase a wide range of furniture products from the comfort of their homes.
 
 ## Features
 
